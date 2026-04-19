@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Arena</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <header>RPG Arena</header>
+
+    <div class="actions-panel">
+        <button class="btn-action attack" id="btn-attack">Atacar</button>
+        <button class="btn-action ability" id="btn-ability">Habilidad Especial</button>
+    </div>
+
+    <div class="game-container">
+        <div class="team-panel">
+            <h2 class="team-title">Héroes</h2>
+            <div id="hero-select" class="team-cards">
+            </div>
+        </div>
+
+        <div class="team-panel">
+            <h2 class="team-title">Enemigos</h2>
+            <div id="enemy-select" class="team-cards">
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
